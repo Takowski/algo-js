@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>js_exo</title>
+    
+    <!-- add the link to style.css -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>js_exo</h1>
-    <script src="2.1.js"></script>
+    
+    <div class="box">
+        <input type="text" id="min" value="min">
+        <input type="text" id="max" value="max">
+            <!--same as the precedent line but replace max by current  -->
+        <input type="text" id="current" value="current">
+        <input type="button" onclick="checkminmax()" value="submit">
+        <p id="answer"></p>
+        </div>
 </body>
+<script src="2.2.js"></script>
 </html>
