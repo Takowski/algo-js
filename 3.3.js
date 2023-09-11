@@ -1,0 +1,11 @@
+let arr1 = [1, 2, 3, 4, 5];
+let arr2 = [];
+let arr3 = [];
+let arr4 = [];
+arr2.push(arr1[0], arr1[1], arr1[2], arr1[3], arr1[4], arr1[5]);
+arr3 = arr1.slice(0, 5);
+arr4 = [...arr1];
+console.log(arr1);
+console.log(arr2);
+console.log(arr3);
+console.log(arr4);
