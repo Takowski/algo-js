@@ -12,7 +12,7 @@ function askTVseries(name, year, cast) {
   let castmember = prompt("Enter the castmembers separated by a coma :");
   let cast = castmember.split(",");
   
-  let seriesobject = askTVseries(name, year, cast);
-  const json = JSON.stringify(askTVseries(name, year, cast));
+  let seriesobject = {name, year, cast};
+  const json = JSON.stringify(seriesobject);
   console.log(json);
   
